@@ -2,12 +2,14 @@
 
 * CMEP(Computational-Math). :red_circle: Branch Link: *** https://github.com/sm-akil/Python/tree/CMEP(Computational-Math) ***
 
+* Algorithm/ Data stracture using python. :red_circle: Branch Link: *** (https://github.com/sm-akil/Python/tree/Algorithm) ***
 
-* Algorithm/ Data stracture using python. :red_circle: Branch Link: ( [https://github.com/sm-akil/PharmacyManagementSystem](https://github.com/sm-akil/Python/tree/CMEP(Computational-Math)) )
+* Basic Python Code
 
-* Basic Python Code 
 * Signal System plotting Design by using python
+
 * Pattern solving by using pyrhon
+
 * Some practicing Python code
 
 
