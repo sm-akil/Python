@@ -27,3 +27,12 @@ a = float(input("Starting position, a: "))
 b = float(input("Ending position, b: "))
 e = float(input("Tolerance error, e: "))
 bisection(a, b)
+
+
+"""  
+Starting position, a: 1
+Ending position, b: 3
+Tolerance error, e: 0.0001
+......
+Answer : The root is:  1.690521240234375
+"""
