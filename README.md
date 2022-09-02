@@ -1,14 +1,14 @@
 # :closed_book: :closed_book: :closed_book: Check the branch here... :point_up_2: :point_up_2: :point_up_2:
 
-* CMEP(Computational-Math). :red_circle: Branch Link: *** https://github.com/sm-akil/Python/tree/CMEP(Computational-Math) ***
+* CMEP(Computational-Math). :orange_circle: Branch Link:  https://github.com/sm-akil/Python/tree/CMEP(Computational-Math) :purple_circle:
 
-* Algorithm/ Data stracture using python. :red_circle: Branch Link: *** (https://github.com/sm-akil/Python/tree/Algorithm) ***
+* Algorithm/ Data stracture using python. :green_circle: Branch Link:  (https://github.com/sm-akil/Python/tree/Algorithm) :orange_circle:
 
 * Basic Python Code
 
 * Signal System plotting Design by using python
 
-* Pattern solving by using pyrhon
+* Pattern solving by using python. :red_circle: Branch Link:  https://github.com/sm-akil/Python/tree/Pattern :green_circle: 
 
 * Some practicing Python code
 
