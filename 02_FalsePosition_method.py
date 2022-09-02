@@ -30,3 +30,9 @@ a = float(input("Starting position, a: "))
 b = float(input("Ending position, b: "))
 e = float(input("Tolerance error, e: "))
 falsi(a, b)
+
+"""........................
+Starting position, a: 1
+Ending position, b: 2
+Tolerance error, e: 0.0001
+........................."""
