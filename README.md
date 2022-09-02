@@ -4,6 +4,7 @@
 * Basic Python Code 
 * Signal System plotting Design by using python
 * Pattern solving by using pyrhon
+* Some practicing Python code
 
 
 Python source code by~ sm_akil :crayon: :crayon: :crayon: 
