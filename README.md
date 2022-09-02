@@ -1,4 +1,4 @@
-# Some basic type~ PythonCode :point_left:
+# :point_right:  Some basic type~ PythonCode  :point_left:
 .
 .
 .
