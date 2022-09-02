@@ -1,6 +1,6 @@
 # :closed_book: :closed_book: :closed_book: Check the branch here... :point_up_2: :point_up_2: :point_up_2:
 
-* CMEP(Computational-Math). :red_circle: Branch Link: ( [https://github.com/sm-akil/PharmacyManagementSystem](https://github.com/sm-akil/Python/tree/CMEP(Computational-Math)) )
+* CMEP(Computational-Math). :red_circle: Branch Link:https://github.com/sm-akil/Python/tree/CMEP(Computational-Math)
 
 
 * Algorithm/ Data stracture using python. :red_circle: Branch Link: ( [https://github.com/sm-akil/PharmacyManagementSystem](https://github.com/sm-akil/Python/tree/CMEP(Computational-Math)) )
