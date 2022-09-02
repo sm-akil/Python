@@ -11,4 +11,4 @@ Python source code by~ sm_akil :crayon: :crayon: :crayon:
 
 𝕤𝕞_𝕒𝕜𝕚𝕝 - [@akil_sm9](https://twitter.com/akil_sm9) - akil.ckb@gmail.com
 
-Branch Link: ([https://github.com/sm-akil/PharmacyManagementSystem](https://github.com/sm-akil/Python/tree/CMEP(Computational-Math)))
+Branch Link: ([https://github.com/sm-akil/PharmacyManagementSystem](https://github.com/sm-akil/Python/tree/CMEP(Computational-Math))
