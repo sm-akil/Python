@@ -1,4 +1,5 @@
 # :earth_africa: Computational Methods for Engineering Problem solving by Python  :dash:
+
 .
 .
 .
@@ -8,4 +9,5 @@
 .
 .
 .
-Python source code
+
+Python source code by~ sm_akil :2nd_place_medal:
