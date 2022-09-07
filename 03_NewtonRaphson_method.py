@@ -47,7 +47,7 @@ def newtonRaphson(x0, e, N):
 # Input Section
 x0 = input('Enter initial guess : ')
 e = input('Tolerable Error : ')
-N = input('Enter maximum number of steps : ');
+N = input('Enter maximum number of steps : ')
 
 # Converting x0 and e to float
 x0 = float(x0)
