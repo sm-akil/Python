@@ -2,7 +2,7 @@ import numpy as np
 import sys
 
 # Reading number of unknowns
-n = int(input('Enter number of unknowns: '))
+n = int(input('Enter number of Equation: '))
 
 # Making numpy array of n x n+1 size and initializing
 # to zero for storing augmented matrix
@@ -44,3 +44,17 @@ for i in range(n - 2, -1, -1):
 print('\nRequired solution is: ')
 for i in range(n):
     print('X%d = %0.2f' % (i, x[i]), end='\t')
+    
+"""
+given equation....
+x  + 2y = 3
+2x + 3y = 4
+#input:
+equation :2
+[0][0] = 1
+[0][1] = 2
+[0][2] = 3
+[1][0] = 2
+[1][2] = 3
+[1][3] = 4
+"""
