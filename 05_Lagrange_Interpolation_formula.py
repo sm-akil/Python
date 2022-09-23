@@ -1,46 +1,55 @@
+# Importing NumPy Library
 import numpy as np
-import sys
 
 # Reading number of unknowns
-n = int(input('Enter number of unknowns: '))
+n = int(input('Enter number of data points: '))
 
-# Making numpy array of n x n+1 size and initializing
-# to zero for storing augmented matrix
-a = np.zeros((n, n + 1))
+# Making numpy array of n & n x n size and initializing 
+# to zero for storing x and y value along with differences of y
+x = np.zeros((n))
+y = np.zeros((n))
 
-# Making numpy array of n size and initializing
-# to zero for storing solution vector
-x = np.zeros(n)
 
-# Reading augmented matrix coefficients
-print('Enter Augmented Matrix Coefficients:')
+# Reading data points
+print('Enter data for x and y: ')
 for i in range(n):
-    for j in range(n + 1):
-        a[i][j] = float(input('a[' + str(i) + '][' + str(j) + ']='))
+    x[i] = float(input( 'x['+str(i)+']='))
+    y[i] = float(input( 'y['+str(i)+']='))
 
-# Applying Gauss Elimination
+
+# Reading interpolation point
+xp = float(input('Enter interpolation point: '))
+
+# Set interpolated value initially to zero
+yp = 0
+
+# Implementing Lagrange Interpolation
 for i in range(n):
-    if a[i][i] == 0.0:
-        sys.exit('Divide by zero detected!')
+    
+    p = 1
+    
+    for j in range(n):
+        if i != j:
+            p = p * (xp - x[j])/(x[i] - x[j])
+    
+    yp = yp + p * y[i]    
 
-    for j in range(i + 1, n):
-        ratio = a[j][i] / a[i][i]
-
-        for k in range(n + 1):
-            a[j][k] = a[j][k] - ratio * a[i][k]
-
-# Back Substitution
-x[n - 1] = a[n - 1][n] / a[n - 1][n - 1]
-
-for i in range(n - 2, -1, -1):
-    x[i] = a[i][n]
-
-    for j in range(i + 1, n):
-        x[i] = x[i] - a[i][j] * x[j]
-
-    x[i] = x[i] / a[i][i]
+# Displaying output
+print('Final Interpolated value is : %.3f is %.3f.' % (xp, yp))
 
 
-print('\nRequired solution is: ')
-for i in range(n):
-    print('X%d = %0.2f' % (i, x[i]), end='\t')
+# Lagrange Interpolation ~ OUTPUT
+"""
+Enter total number of data points: 3
+Enter data for x and y: 
+x[0]=0.3333
+y[0]=2
+x[1]=0.25
+y[1]=-1
+x[2]=1
+y[2]=7
+Enter interpolation point: 4
+Final Interpolated value is : 4.000 is -388.722.
+
+Process finished with exit code 0
+"""
